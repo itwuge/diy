@@ -29,6 +29,7 @@ git clone https://github.com/kenzok8/small.git package/small
 #git clone https://github.com/Leo-Jo-My/luci-theme-opentomato.git package/lean/luci-theme-opentomato
 #sed -i "s/LeoJo/SyPopo/g" package/lean/luci-theme-opentomato/luasrc/view/themes/opentomato/footer.htm
 rm -rf ./feeds/luci/themes/luci-theme-argon
+rm -rf ./feeds/luci/themes/luci-theme-neobird
 git clone https://github.com/thinktip/luci-theme-neobird  package/lean/luci-theme-neobird
 git clone https://github.com/jerrykuku/luci-theme-argon -b 18.06 package/lean/luci-theme-argon
 
